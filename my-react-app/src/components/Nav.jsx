@@ -1,14 +1,27 @@
+import { Link } from "react-router-dom";
 
-import { Link } from "react-router";
-export default function Nav (){
-    return(
-        <>
-        <Link to={"html"}>Html</Link>
-        <Link to={"css"}>CSS</Link>
-        <Link to={"javascript"}>JavaScript</Link>
-        <Link to={"react"}>React</Link>
-        <Link to={"sanity"}>Sanity</Link>
+export default function Nav() {  // Setter en default tom array
 
-        </>
-    );
+  return (
+    <nav>
+        <ul>
+            <li>
+               <Link to="/html">Html</Link>
+            </li>
+            <li>
+                <Link to={"/css"}>CSS</Link>
+             </li>
+             <li>
+                <Link to={"/javascript"}>JavaScript</Link>
+            </li>
+            <li>
+                <Link to={"/react"}>React</Link>
+            </li>
+            <li>
+                <Link to={"/headless-cms"}>Sanity</Link>
+             </li>
+        </ul>
+        
+    </nav>
+  );
 }

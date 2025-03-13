@@ -9,10 +9,9 @@ export default function ResourceCard ({category}) {
 
   return ( 
   <>
-  <h1>Ressurskort</h1>
   <PageTitle tittel={selectedCategory1[0].category} />
     {selectedCategory1.map ((resource) => (
-      <article>
+      <article key={resource.title}>
         <h3>
           {resource.title}
         </h3>

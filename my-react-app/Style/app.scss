@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-:root {
-    --blue: #2a324b;
-    --lightblue: #58699D;
-    --gray: #E1E5EE;
-    --white: #fff;
+$blue: #2a324b;
+$lightblue: #58699D;
+$gray: #E1E5EE;
+$white: #fff;
+
+body {
+background-color: #E1E5EE;
+font-family: Roboto, serif;
 
 }
+nav {
+    background-color:#2a324b;
+    color: #fff;
+    padding: 1rem;
+  
+    ul {
+        margin: 5px;
+        display: flex;
+        gap: 3rem;
+        font-size: large;
+  
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+  
+        &:hover {
+          background-color: #fff;
+          color:  #2a324b;
+        }
+      }
+    }
+  }

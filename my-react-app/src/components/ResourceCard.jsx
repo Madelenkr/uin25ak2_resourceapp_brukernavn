@@ -17,7 +17,7 @@ export default function ResourceCard ({category}) {
         </h3>
         <ul>
           <li> 
-            <Link to={resource.url}>Klikk her
+            <Link to={resource.url}>Les mer
             </Link>
           </li>
         </ul>

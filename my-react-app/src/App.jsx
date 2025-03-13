@@ -2,7 +2,6 @@ import './App.css'
 import { Route, Routes } from "react-router-dom";
 import Layout from './components/Layout';
 import ResourceCard from "./components/ResourceCard";
-import Test from "./components/Test";
 import "../Style/app.scss";
 
 
